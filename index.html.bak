@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>FinChange</title>
+  <style>
+     .astonish {
+          visibility: visible;
+      }
+
+      @media (min-width: 768px) {
+          .astonish {
+               visibility: hidden;
+           }
+           .animated {
+                visibility: visible;
+           }
+       }
+</style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet' href='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/css/styles.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Main Navigation -->
+<nav class="main-nav" id="main-nav">
+ <div class="content-wrapper-sm">
+  <a href="#" class="navbar-brand">LOGO</a>
+  <div id="menu-button">
+   <div class="bar1"></div>
+   <div class="bar2"></div>
+   <div class="bar3"></div>
+  </div>
+  <ul class="nav-links">
+   <li><a href="#about">About</a></li>
+   <li><a href="#reserve">Markets</a></li>
+   <li><a href="#contact">Contact</a></li>
+   <li><a href="./login.html">Login/Signup</a></li>
+  </ul>
+ </div>
+</nav>
+
+<!-- Main header -->
+<header>
+ <!-- First replaceble image -->
+ <img class="img-absolute" src="https://raw.githubusercontent.com/Jesus-E-Rodriguez/cityscapes-landing-page/88c9b44e3def10ae253dd8d44b717cfa78cca42d/img/city.png" alt="City 1">
+ <div class="wrapper astonish animated fadeInDown">
+  <h1><strong>Chain</strong>Factor</h1>
+  <h2>The place called home <br>
+                    When it comes to trading crypto</h2>
+ </div>
+</header>
+
+<!-- Main content -->
+<main>
+ <div class="content-wrapper" id="about">
+  <!-- second replaceble image -->
+  <img class="img-absolute" src="https://raw.githubusercontent.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/img/city2.png" alt="City 2">
+  <div class="grid">
+   <div class="grid-col-sm-12 grid-col-md-6 astonish" data-animation="fadeInLeft">
+    <h2 class="section-title">About ChainFactor</h2>
+    <p>We all know that cryptocurrency is a tricky business, with lots of scams and complications around blockchain and related technologies, ChainFactor exists to provide simplicity as much as possible</p>
+    <p>With top of the class technology and secured infrastructure, Chainfactor will keeps its users at ease, knowing that their hard earned money is in good hands.</p>
+    <p>With decentralized features and open source software intergrations, you are sure of transparency and stability.</p>
+   </div>
+  </div>
+ </div>
+
+ <div id="reserve" class="content-wrapper-lg text-center astonish" data-animation="zoomIn">
+  <h2 class="section-title">Explore New ways of making a living</h2>
+  <p>Whether you are an short or long-term investor or simply want to send money anywhere in the world, ChainFactor has tailor made features to meet your needs.</p>
+  <a href="https://github.com/Jesus-E-Rodriguez/cityscapes-landing-page" class="btn btn-outline-purple" target="_blank">Download</a>
+ </div>
+
+ <div class="content-wrapper" id="contact">
+  <!-- Third replaceble image -->
+  <img class="img-absolute" src="https://raw.githubusercontent.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/img/city3.png" alt="City 3">
+
+  <!-- Custom form, important note: you will need additional code in order to make this form work -->
+  <form class="contact-form astonish" action="#" method="post" data-animation="fadeInRight">
+   <h2 class="section-title">Contact Us</h2>
+   <div class="grid">
+    <div class="grid-col-sm-12 grid-col-md-6">
+     <div class="form-group">
+      <input type="text" name="firstName" required>
+      <label for="firstName">First Name:</label>
+     </div>
+    </div>
+    <div class="grid-col-sm-12 grid-col-md-6">
+     <div class="form-group">
+      <input type="text" name="lastName" required>
+      <label for="lasttName">Last Name:</label>
+     </div>
+    </div>
+    <div class="grid-col-sm-12">
+     <div class="form-group">
+      <input type="text" name="email" required>
+      <label for="email">Email:</label>
+     </div>
+    </div>
+    <div class="grid-col-sm-12">
+     <div class="form-group">
+      <textarea name="message" required></textarea>
+      <label for="message">Message:</label>
+     </div>
+    </div>
+   </div>
+   <input class="btn btn-outline-teal" type="submit" value="Send">
+  </form>
+ </div>
+
+ <!-- This is an embedded Google map, this is easily customizable especially if you get a Google API key, this will allow for more customizable features. -->
+ <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d81584.50435706123!2d-80.8378430874413!3d35.23358937843391!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1514142608486" frameborder="0" style="border:0" allowfullscreen></iframe>
+</main>
+
+<!-- Main footer -->
+<footer>
+ <div class="content-wrapper-sm display-flex-between">
+  <!-- Easily replaceble copyright information -->
+  <small>Your copyright 2017.</small>
+
+  <!-- Make sure to edit the links so that they go to your social media. -->
+  <div class="social-links">
+   <ul>
+    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-snapchat-square" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+   </ul>
+  </div>
+ </div>
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/astonish.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/menu.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/nav.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/scroll.js'></script>
+</body>
+</html>
